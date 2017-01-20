@@ -1,0 +1,31 @@
+12:55:15 **** Incremental Build of configuration Debug for project fahr to celsuis (for version) ****
+make all 
+Building file: ../src/for version.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/for version.d" -MT"src/for\ version.d" -o "src/for version.o" "../src/for version.c"
+Finished building: ../src/for version.c
+ 
+Building target: fahr to celsuis 
+Invoking: GCC C Linker
+gcc  -o "fahr to celsuis (for version)"  ./src/for\ version.o   
+Finished building target: fahr to celsuis 
+ 
+12:55:35 **** Incremental Build of configuration Debug for project fahr to celsuis (for version) ****
+make all 
+Building target: fahr to celsuis 
+Invoking: GCC C Linker
+gcc  -o "fahr to celsuis (for version)"  ./src/for\ version.o   
+Finished building target: fahr to celsuis 
+ 
+12:55:51 **** Incremental Build of configuration Debug for project fahr to celsuis (for version) ****
+make all 
+Building file: ../src/for version.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/for version.d" -MT"src/for\ version.d" -o "src/for version.o" "../src/for version.c"
+Finished building: ../src/for version.c
+ 
+Building target: fahr to celsuis 
+Invoking: GCC C Linker
+gcc  -o "fahr to celsuis (for version)"  ./src/for\ version.o   
+Finished building target: fahr to celsuis 
+ 

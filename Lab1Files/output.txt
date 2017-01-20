@@ -1,0 +1,4 @@
+/* output.txt by Meixintong Zha*/
+gcc -O2 -Wall -c intarray.c
+gcc -O2 -Wall -c sinewave.c
+gcc -O2 -Wall sinewave.o intarray.o -lm -o sinewave 

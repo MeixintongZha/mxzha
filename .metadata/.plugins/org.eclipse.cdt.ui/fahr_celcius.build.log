@@ -1,0 +1,15 @@
+12:43:16 **** Incremental Build of configuration Debug for project fahr_celcius ****
+make all 
+Building file: ../src/fahrenheit-celsius.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/fahrenheit-celsius.d" -MT"src/fahrenheit-celsius.d" -o "src/fahrenheit-celsius.o" "../src/fahrenheit-celsius.c"
+Finished building: ../src/fahrenheit-celsius.c
+ 
+Building target: fahr_celcius
+Invoking: GCC C Linker
+gcc  -o "fahr_celcius"  ./src/fahrenheit-celsius.o   
+Finished building target: fahr_celcius
+ 
+
+12:43:17 Build Finished (took 562ms)
+
