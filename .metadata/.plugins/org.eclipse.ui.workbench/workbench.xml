@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="28" version="2.0">
+<workbench progressCount="27" version="2.0">
 <workbenchAdvisor/>
 <window height="745" maximized="true" width="1018" x="65" y="24">
 <fastViewData fastViewLocation="1024"/>
-<intro standby="true"/>
 <perspectiveBar>
 <itemSize x="160"/>
 </perspectiveBar>
@@ -22,7 +21,7 @@
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.cdt.make.editor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.cdt.ui.editor.CEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
-<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
 </coolbarLayout>
@@ -40,6 +39,14 @@
 <part id="5"/>
 <part id="6"/>
 <part id="7"/>
+<part id="8"/>
+<part id="9"/>
+<part id="10"/>
+<part id="11"/>
+<part id="12"/>
+<part id="13"/>
+<part id="14"/>
+<part id="15"/>
 </presentation>
 </folder>
 </info>
@@ -66,31 +73,61 @@
 </editor>
 <editor id="org.eclipse.cdt.ui.editor.CEditor" name="float version.c" partName="float version.c" path="/home/meixintongzha/workspace/fahr to celsius 2/src/float version.c" title="float version.c" tooltip="fahr to celsius 2/src/float version.c" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/fahr to celsius 2/src/float version.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="245" selectionOffset="0" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="246" selectionTopPixel="0"/>
 </editor>
 <editor id="org.eclipse.cdt.make.editor" name="makefile" partName="makefile" path="/home/meixintongzha/workspace/fahr to celsius 2/Debug/makefile" title="makefile" tooltip="fahr to celsius 2/Debug/makefile" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/fahr to celsius 2/Debug/makefile"/>
 <editorState selectionHorizontalPixel="0" selectionLength="28" selectionOffset="694" selectionTopPixel="255"/>
 </editor>
-<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="for version.c" partName="for version.c" path="/home/meixintongzha/workspace/fahr to celsuis (for version)/src/for version.c" title="for version.c" tooltip="fahr to celsuis (for version)/src/for version.c" workbook="DefaultEditorWorkbook">
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="for version.c" partName="for version.c" path="/home/meixintongzha/workspace/fahr to celsuis (for version)/src/for version.c" title="for version.c" tooltip="fahr to celsuis (for version)/src/for version.c" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/fahr to celsuis (for version)/src/for version.c"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="29" selectionTopPixel="0"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="Life.c" partName="Life.c" path="/home/meixintongzha/workspace/life/src/Life.c" title="Life.c" tooltip="life/src/Life.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/life/src/Life.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="288" selectionOffset="50" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="intarray.h" partName="intarray.h" path="/home/meixintongzha/workspace/life/intarray.h" title="intarray.h" tooltip="life/intarray.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/life/intarray.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="intarray.c" partName="intarray.c" path="/home/meixintongzha/workspace/life/intarray.c" title="intarray.c" tooltip="life/intarray.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/life/intarray.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="sinewave.c" partName="sinewave.c" path="/home/meixintongzha/workspace/life/src/sinewave.c" title="sinewave.c" tooltip="life/src/sinewave.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/life/src/sinewave.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.cdt.make.editor" name="makefile" partName="makefile" path="/home/meixintongzha/workspace/life/makefile" title="makefile" tooltip="life/makefile" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/life/makefile"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1162" selectionTopPixel="120"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="Game.c" partName="Game.c" path="/home/meixintongzha/workspace/life/src/Game.c" title="Game.c" tooltip="life/src/Game.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/life/src/Game.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="47" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.ui.DefaultTextEditor" name="input.txt" partName="input.txt" path="/home/meixintongzha/workspace/life/input.txt" title="input.txt" tooltip="life/input.txt" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/life/input.txt"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="32" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="Life.c" partName="Life.c" path="/home/meixintongzha/workspace/life2/src/Life.c" title="Life.c" tooltip="life2/src/Life.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/life2/src/Life.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="206" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
 <view id="org.eclipse.ui.views.PropertySheet" partName="Properties">
 <viewState/>
 </view>
-<view id="org.eclipse.ui.internal.introview" partName="Welcome">
-<viewState>
-<presentation currentPage="tutorials" restore="true"/>
-<standbyPart/>
-</viewState>
-</view>
 <view id="org.eclipse.cdt.visualizer.view" partName="Visualizer"/>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
-<columnWidths org.eclipse.ui.ide.locationField="105" org.eclipse.ui.ide.markerType="105" org.eclipse.ui.ide.pathField="140" org.eclipse.ui.ide.resourceField="105" org.eclipse.ui.ide.severityAndDescriptionField="350"/>
+<expanded>
+<category IMemento.internal.id="Errors"/>
+<category IMemento.internal.id="Warnings"/>
+</expanded>
+<columnWidths org.eclipse.ui.ide.locationField="105" org.eclipse.ui.ide.markerType="398" org.eclipse.ui.ide.pathField="140" org.eclipse.ui.ide.resourceField="105" org.eclipse.ui.ide.severityAndDescriptionField="350"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
@@ -117,7 +154,9 @@
 </viewState>
 </view>
 <view id="org.eclipse.cdt.debug.ui.executablesView" partName="Executables"/>
-<view id="org.eclipse.cdt.make.ui.views.MakeView" partName="Make Target"/>
+<view id="org.eclipse.cdt.make.ui.views.MakeView" partName="Make Target">
+<viewState/>
+</view>
 <view id="org.eclipse.ui.navigator.ProjectExplorer" partName="Project Explorer">
 <viewState CommonNavigator.LINKING_ENABLED="0" org.eclipse.cdt.ui.cview.groupincludes="false" org.eclipse.cdt.ui.cview.groupmacros="false" org.eclipse.cdt.ui.editor.CUChildren="true" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0"/>
 </view>
@@ -243,9 +282,7 @@
 <view id="org.eclipse.ui.views.TaskList"/>
 <view id="org.eclipse.ui.console.ConsoleView"/>
 <view id="org.eclipse.ui.views.PropertySheet"/>
-<view id="org.eclipse.ui.views.ContentOutline"/>
 <view id="org.eclipse.cdt.make.ui.views.MakeView"/>
-<view id="org.eclipse.ui.internal.introview"/>
 <fastViewBars/>
 <layout>
 <mainWindow>
@@ -261,18 +298,16 @@
 </folder>
 </info>
 <info folder="true" part="org.eclipse.ui.internal.ViewStack@592a1882" ratio="0.7495049" ratioLeft="757" ratioRight="253" relationship="2" relative="topLeft">
-<folder activePageID="org.eclipse.ui.internal.introview" appearance="2" expanded="2">
-<page content="org.eclipse.ui.internal.introview" label="Welcome"/>
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
 <page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
-</presentation>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.24950495" ratioLeft="252" ratioRight="758" relationship="2" relative="topLeft"/>
 <info folder="true" part="bottom" ratio="0.6504702" ratioLeft="415" ratioRight="223" relationship="4" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
+<folder activePageID="org.eclipse.ui.views.ProblemView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
 <page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
 <page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
@@ -286,12 +321,11 @@
 </folder>
 </info>
 <info folder="true" part="topRight" ratio="0.74934036" ratioLeft="568" ratioRight="190" relationship="2" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
-<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<folder activePageID="org.eclipse.cdt.make.ui.views.MakeView" appearance="2" expanded="2">
 <page content="org.eclipse.cdt.make.ui.views.MakeView" label="Make Target"/>
+<page content="org.eclipse.ui.views.ContentOutline" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
-<part id="1"/>
 </presentation>
 </folder>
 </info>
@@ -407,157 +441,172 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/my-hello world/i don&apos;t know"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/ansi hello world/src/ansi hello world.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.binaryEditor" path="/ansi hello world/Debug/src/ansi hello world.o"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.binaryEditor" path="/ansi hello world/Debug/ansi hello world"/>
-<editor factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/usr/include/_G_config.h" project="ansi hello world"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/my-hello world/src/my-hello world.c"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/fahr_celcius/src/fahrenheit-celsius.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/fahr to celsius 2/src/fahr-celsius float version"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/fahr to celsius 2/src/float version.c"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.make.editor" path="/fahr to celsius 2/Debug/makefile"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/fahr to celsuis (for version)/for version.c"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.make.editor" path="/fahr to celsuis (for version)/Debug/sources.mk"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/fahr to celsuis (for version)/src/for version.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/life/src/life.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/life/intarray.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/life/intarray.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/life/src/sinewave.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.make.editor" path="/life/makefile"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/life/src/Life.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/life/src/Game.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/life/input.txt"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/fahr to celsius 2/src/float version.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/life2/src/Life.c"/>
 </editors>
-<item historyLabel="i don&apos;t know" index="0">
-<position info="not_deleted" x="19" y="0"/>
-</item>
-<item historyLabel="ansi hello world.c" index="1">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="ansi hello world.c" index="1">
-<position info="not_deleted" x="435" y="0"/>
-</item>
-<item historyLabel="ansi hello world.c" index="1">
-<position info="not_deleted" x="327" y="8"/>
-</item>
-<item historyLabel="ansi hello world.c" index="1">
-<position info="not_deleted" x="337" y="0"/>
-</item>
-<item historyLabel="ansi hello world.o" index="2">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="ansi hello world.c" index="1">
-<position info="not_deleted" x="337" y="0"/>
-</item>
-<item historyLabel="ansi hello world" index="3">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="_G_config.h" index="4">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="ansi hello world" index="3">
-<position info="not_deleted" x="26488" y="0"/>
-</item>
-<item historyLabel="my-hello world.c" index="5">
-<position info="not_deleted" x="57" y="0"/>
-</item>
-<item historyLabel="my-hello world.c" index="5">
-<position info="not_deleted" x="52" y="0"/>
-</item>
-<item historyLabel="my-hello world.c" index="5">
-<position info="not_deleted" x="57" y="0"/>
-</item>
-<item historyLabel="fahrenheit-celsius.c" index="6">
-<position info="not_deleted" x="314" y="0"/>
-</item>
-<item historyLabel="fahrenheit-celsius.c" index="6">
-<position info="not_deleted" x="91" y="0"/>
-</item>
-<item historyLabel="fahrenheit-celsius.c" index="6">
-<position info="not_deleted" x="227" y="0"/>
-</item>
-<item historyLabel="fahrenheit-celsius.c" index="6">
-<position info="not_deleted" x="251" y="0"/>
-</item>
-<item historyLabel="fahrenheit-celsius.c" index="6">
-<position info="not_deleted" x="273" y="0"/>
-</item>
-<item historyLabel="fahrenheit-celsius.c" index="6">
-<position info="not_deleted" x="311" y="0"/>
-</item>
-<item historyLabel="fahrenheit-celsius.c" index="6">
-<position info="not_deleted" x="314" y="0"/>
-</item>
-<item historyLabel="fahrenheit-celsius.c" index="6">
-<position info="not_deleted" x="83" y="4"/>
-</item>
-<item historyLabel="my-hello world.c" index="5">
-<position info="not_deleted" x="29" y="0"/>
-</item>
-<item historyLabel="fahrenheit-celsius.c" index="6">
-<position info="not_deleted" x="313" y="0"/>
-</item>
-<item historyLabel="fahr-celsius float version" index="7">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="fahrenheit-celsius.c" index="6">
-<position info="not_deleted" x="313" y="0"/>
-</item>
-<item historyLabel="float version.c" index="8">
-<position info="not_deleted" x="246" y="0"/>
-</item>
-<item historyLabel="float version.c" index="8">
+<item historyLabel="float version.c" index="1">
 <position info="not_deleted" x="243" y="0"/>
 </item>
-<item historyLabel="float version.c" index="8">
-<position info="not_deleted" x="240" y="0"/>
-</item>
-<item historyLabel="float version.c" index="8">
-<position info="not_deleted" x="220" y="0"/>
-</item>
-<item historyLabel="float version.c" index="8">
-<position info="not_deleted" x="243" y="0"/>
-</item>
-<item historyLabel="makefile" index="9">
+<item historyLabel="makefile" index="2">
 <position info="not_deleted" x="694" y="28"/>
 </item>
-<item historyLabel="float version.c" index="8">
-<position info="not_deleted" x="243" y="0"/>
-</item>
-<item historyLabel="makefile" index="9">
-<position info="not_deleted" x="694" y="28"/>
-</item>
-<item historyLabel="fahrenheit-celsius.c" index="6">
+<item historyLabel="fahrenheit-celsius.c" index="0">
 <position info="not_deleted" x="83" y="0"/>
 </item>
-<item historyLabel="float version.c" index="8">
+<item historyLabel="float version.c" index="1">
 <position info="not_deleted" x="24" y="0"/>
 </item>
-<item historyLabel="makefile" index="9">
+<item historyLabel="makefile" index="2">
 <position info="not_deleted" x="694" y="28"/>
 </item>
-<item historyLabel="for version.c" index="10">
+<item historyLabel="for version.c" index="3">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="fahrenheit-celsius.c" index="6">
+<item historyLabel="fahrenheit-celsius.c" index="0">
 <position info="not_deleted" x="214" y="0"/>
 </item>
-<item historyLabel="for version.c" index="10">
+<item historyLabel="for version.c" index="3">
 <position/>
 </item>
-<item historyLabel="float version.c" index="8">
+<item historyLabel="float version.c" index="1">
 <position info="not_deleted" x="0" y="245"/>
 </item>
-<item historyLabel="for version.c" index="10">
+<item historyLabel="for version.c" index="3">
 <position/>
 </item>
-<item historyLabel="float version.c" index="8">
+<item historyLabel="float version.c" index="1">
 <position info="not_deleted" x="0" y="245"/>
 </item>
-<item historyLabel="for version.c" index="10">
+<item historyLabel="for version.c" index="3">
 <position/>
 </item>
-<item historyLabel="sources.mk" index="11">
+<item historyLabel="sources.mk" index="4">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="for version.c" index="10">
+<item historyLabel="for version.c" index="3">
 <position/>
 </item>
-<item active="true" historyLabel="for version.c" index="12">
+<item historyLabel="for version.c" index="5">
 <position info="not_deleted" x="113" y="0"/>
+</item>
+<item historyLabel="life.c" index="6">
+<position info="not_deleted" x="142" y="0"/>
+</item>
+<item historyLabel="life.c" index="6">
+<position info="not_deleted" x="65" y="0"/>
+</item>
+<item historyLabel="life.c" index="6">
+<position info="not_deleted" x="137" y="0"/>
+</item>
+<item historyLabel="life.c" index="6">
+<position info="not_deleted" x="136" y="0"/>
+</item>
+<item historyLabel="for version.c" index="5">
+<position info="not_deleted" x="29" y="0"/>
+</item>
+<item historyLabel="life.c" index="6">
+<position info="not_deleted" x="136" y="0"/>
+</item>
+<item historyLabel="intarray.h" index="7">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="intarray.c" index="8">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="sinewave.c" index="9">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="makefile" index="10">
+<position info="not_deleted" x="1162" y="0"/>
+</item>
+<item historyLabel="life.c" index="6">
+<position info="not_deleted" x="136" y="0"/>
+</item>
+<item historyLabel="Life.c" index="11">
+<position info="not_deleted" x="340" y="0"/>
+</item>
+<item historyLabel="Game.c" index="12">
+<position info="not_deleted" x="47" y="0"/>
+</item>
+<item historyLabel="input.txt" index="13">
+<position info="not_deleted" x="110" y="0"/>
+</item>
+<item historyLabel="Game.c" index="12">
+<position info="not_deleted" x="47" y="0"/>
+</item>
+<item historyLabel="input.txt" index="13">
+<position info="not_deleted" x="32" y="0"/>
+</item>
+<item historyLabel="Life.c" index="11">
+<position info="not_deleted" x="340" y="0"/>
+</item>
+<item historyLabel="Game.c" index="12">
+<position info="not_deleted" x="47" y="0"/>
+</item>
+<item historyLabel="Life.c" index="11">
+<position info="not_deleted" x="340" y="0"/>
+</item>
+<item historyLabel="Life.c" index="11">
+<position info="not_deleted" x="334" y="0"/>
+</item>
+<item historyLabel="Life.c" index="11">
+<position info="not_deleted" x="325" y="0"/>
+</item>
+<item historyLabel="Life.c" index="11">
+<position info="not_deleted" x="264" y="0"/>
+</item>
+<item historyLabel="Life.c" index="11">
+<position info="not_deleted" x="277" y="0"/>
+</item>
+<item historyLabel="Life.c" index="11">
+<position info="not_deleted" x="324" y="0"/>
+</item>
+<item historyLabel="Life.c" index="11">
+<position info="not_deleted" x="321" y="0"/>
+</item>
+<item historyLabel="Life.c" index="11">
+<position info="not_deleted" x="332" y="0"/>
+</item>
+<item historyLabel="Life.c" index="11">
+<position info="not_deleted" x="123" y="4"/>
+</item>
+<item historyLabel="float version.c" index="14">
+<position info="not_deleted" x="246" y="0"/>
+</item>
+<item historyLabel="Life.c" index="11">
+<position info="not_deleted" x="51" y="0"/>
+</item>
+<item historyLabel="Life.c" index="15">
+<position info="not_deleted" x="3" y="0"/>
+</item>
+<item historyLabel="Life.c" index="11">
+<position info="not_deleted" x="0" y="338"/>
+</item>
+<item historyLabel="Life.c" index="15">
+<position info="not_deleted" x="206" y="0"/>
+</item>
+<item historyLabel="Life.c" index="11">
+<position info="not_deleted" x="123" y="4"/>
+</item>
+<item historyLabel="Life.c" index="11">
+<position info="not_deleted" x="47" y="0"/>
+</item>
+<item active="true" historyLabel="Life.c" index="11">
+<position info="not_deleted" x="123" y="4"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -576,6 +625,27 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Life.c" tooltip="life2/src/Life.c">
+<persistable path="/life2/src/Life.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="input.txt" tooltip="life/input.txt">
+<persistable path="/life/input.txt"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Game.c" tooltip="life/src/Game.c">
+<persistable path="/life/src/Game.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.make.editor" name="makefile" tooltip="life/makefile">
+<persistable path="/life/makefile"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="sinewave.c" tooltip="life/src/sinewave.c">
+<persistable path="/life/src/sinewave.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="intarray.c" tooltip="life/intarray.c">
+<persistable path="/life/intarray.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="intarray.h" tooltip="life/intarray.h">
+<persistable path="/life/intarray.h"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.make.editor" name="sources.mk" tooltip="fahr to celsuis (for version)/Debug/sources.mk">
 <persistable path="/fahr to celsuis (for version)/Debug/sources.mk"/>
 </file>
@@ -599,12 +669,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.binaryEditor" name="ansi hello world.o" tooltip="ansi hello world/Debug/src/ansi hello world.o">
 <persistable path="/ansi hello world/Debug/src/ansi hello world.o"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.systemExternalEditor" name="ansi hello world.d" tooltip="ansi hello world/Debug/src/ansi hello world.d">
-<persistable path="/ansi hello world/Debug/src/ansi hello world.d"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="ansi hello world.c" tooltip="ansi hello world/src/ansi hello world.c">
-<persistable path="/ansi hello world/src/ansi hello world.c"/>
 </file>
 </mruList>
 </workbench>
