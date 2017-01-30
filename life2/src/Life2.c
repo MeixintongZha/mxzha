@@ -1,43 +1,45 @@
-/*
- * Life.c
- *
- *  Created on: Jan 28, 2017
- *      Author: meixintongzha
- */
-/*Life.c by Meixintong Zha*/
+//
+//  Life2.c
+//  
+//
+//  Created by Herta Remedy on 1/29/17.
+//
+//
+
+#include "Life2.h"
+
 
 #include <stdio.h>
 #include <stdlib.h>
 #include "life.h"
 int **A, **B, **C;
-
+int Y;
 
 int main(int argc, char *argv[]){
-	
-	int gens,i,runtimes;
-	FILE *input;
-    int c;
-    runtimes=0;
- int X,Y;
-	
-        
-	if (argc<5) {
-        printf("Error: invalid input");
-		exit(-1);
-	}
-		
-	X=atoi(argv[1]);
-		
-	Y=atoi(argv[2]);
-		
-	gens=atoi(argv[3]);
-               
-        input=fopen(argv[4], "r");
     
-  
-	//int getc( );
-	
-                
+    int X,gens,i;
+    FILE *input;
+    int c;
+    
+    
+    
+    if (argc<5) {
+        printf("Error: invalid input");
+        exit(-1);
+    }
+    
+    X=atoi(argv[1]);
+    
+    Y=atoi(argv[2]);
+    
+    gens=atoi(argv[3]);
+    
+    input=fopen(argv[4], "r");
+    
+    
+    //int getc( );
+    
+    
     A = malloc(3 * X * (sizeof (int *)));
     
     for(int j=0;j<3*X;j++) {
@@ -84,25 +86,28 @@ int main(int argc, char *argv[]){
             i++;
         }
     }
-
     
-   play_one(X, Y, B, C, runtimes);
- 
-   if (runtimes==gens) {
-        for(int j=0; j<3*X;j++) {
-            for(int i=0; i<3*Y; i++) {
-                printf("%d", C[j][i]);
-                }}
-   printf("a predefined number of generations is reached\n");
-   exit(0);}
+    for(int j=0; j<3*X;j++) {
+        for(int i=0; i<3*Y; i++) {
+            printf("%d",B[j][i]);
+        }
+        printf("\n");
+    }
     
-   swap(A, B, C, X, Y);
     
-   play_one(X, Y, B, C, runtimes);
+    for(int j=0; j<3*X;j++) {
+        for(int i=0; i<3*Y; i++) {
+            printf("%d",B[j][i]);
+        }
+        printf("\n");
+    }
+    play_one(X, Y, B[3*X][3*Y], C[3*X][3*Y]);
     
-  checkTerminal(A, B, C, gens, runtimes, X, Y);
-        
-playmore(A, B, C, gens, runtimes, X, Y);
-
-
+    
+    
+    
+    printf("%d %d %d\n", X,Y,gens);
+    
+    
+    
 }
